@@ -46,6 +46,7 @@ app.route("/:config", configRouter);
 const apiRouter = createAPIRouter();
 apiRouter.route("/config", configAPIRoute);
 apiRouter.route("/poster", posterAPIRouter);
+apiRouter.route("/lists", listsAPIRouter);
 apiRouter.route("/recommend", recommendAPIRouter);
 apiRouter.route("/resolve", resolveAPIRouter);
 apiRouter.route("/stats", statsAPIRouter);
