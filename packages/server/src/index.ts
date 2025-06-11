@@ -1,3 +1,4 @@
+import { listsAPIRouter } from "./routes/api/lists.js";
 import { serve } from "@hono/node-server";
 import { serverEnv } from "@stremio-addon/env";
 import { addonManifest, createManifest } from "@/util/manifest.js";
